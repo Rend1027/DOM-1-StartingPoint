@@ -62,6 +62,12 @@ console.log(document.body);
 
     div1.remove();
 
-//Try without querySelector
-const header = document.getElementById("container");
+  // Try rewriting this without using querySelector
+
+const header = document.querySelector("#container");
+
 console.log("header", header);
+
+//Rewrote with getElementId
+const header1 = document.getElementById("container");
+console.log("header1", header1);
